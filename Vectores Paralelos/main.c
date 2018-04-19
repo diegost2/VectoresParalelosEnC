@@ -10,10 +10,10 @@ float SacarPromedio(int notaUno[], int notaDos[] )
 int main()
 {
     char nombre[TAMANIO][50]={"Juan","Maria","Alfredo","Jose","Lili"};
-    int nota1[TAMANIO]={4,};
-    int nota2[TAMANIO]={4,};
-    float promedios[TAMANIO]={};
-    int legajo[TAMANIO]={};
+    int nota1[TAMANIO]={4,10,2,7,2};
+    int nota2[TAMANIO]={4,8,7,8,3};
+    float promedios[TAMANIO]={4,9.5,4.5,8.5,2.5};
+    int legajo[TAMANIO]={111,222,333,444,555};
 
     CargarAlumno(nombre,nota1,nota2,promedios,legajo,TAMANIO);
     mostrarAlumno(nombre,nota1,nota2,promedios,legajo,TAMANIO);
