@@ -3,6 +3,10 @@
 
 int main()
 {
-    printf("Hello world!\n");
+    char nombre[];
+    int notas1;
+    int notas2;
+    float promedios;
+
     return 0;
 }
