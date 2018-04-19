@@ -5,12 +5,13 @@
 void mostrarAlumno(char [][50], int [], int [], float [], int [], int );
 void CargarAlumno(char [][50], int [], int [], float [], int [], int );
 int BuscarLugar(int [],int );
+float SacarPromedio(int notaUno[], int notaDos[] )
 
 int main()
 {
     char nombre[TAMANIO][50]={"Juan","Maria","Alfredo","Jose","Lili"};
-    int nota1[TAMANIO]={};
-    int nota2[TAMANIO]={};
+    int nota1[TAMANIO]={4,};
+    int nota2[TAMANIO]={4,};
     float promedios[TAMANIO]={};
     int legajo[TAMANIO]={};
 
